@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Seguro Médico Internacional en RD | CBR ASESORES</title>
+
+<meta name="description" content="Seguro médico internacional para personas y familias en República Dominicana. Acceso a medicina de vanguardia, segunda opinión médica global, hospitales internacionales y acompañamiento especializado.">
+
+<link rel="canonical" href="https://cbrasesores.com/seguros-salud-internacional-rd.html">
+
+<link rel="icon" type="image/webp" href="favicon.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1E2229;
+    background: #FFFFFF;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #0A192F;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.95);
+    border-bottom: 1px solid #E2E8F0;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+}
+
+.nav-container {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.logo {
+    height: 110px;
+    width: auto;
+}
+
+.nav-cta {
+    background: #0A192F;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+/* HERO */
+.health-hero {
+    min-height: 760px;
+    padding-top: 90px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(10,25,47,0.82) 0%,
+            rgba(10,25,47,0.58) 42%,
+            rgba(10,25,47,0.18) 100%
+        ),
+        url("seguro-salud-internacional-rd.webp") center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.health-hero-content {
+    max-width: 720px;
+    padding: 120px 0;
+}
+
+.health-tag {
+    display: inline-block;
+    color: #C8A46B;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.health-hero h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.12;
+    margin-bottom: 24px;
+}
+
+.health-hero h2 {
+    color: #F8F7F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 620px;
+    margin-bottom: 34px;
+}
+
+.health-hero p {
+    color: #DDE5EF;
+    font-size: 18px;
+    max-width: 640px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: #FFFFFF;
+    color: #0A192F;
+    padding: 16px 34px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-top: 38px;
+}
+
+/* CONTENT */
+.health-content-section {
+    padding: 100px 0;
+    background: #FFFFFF;
+}
+
+.health-intro {
+    max-width: 850px;
+    margin-bottom: 70px;
+}
+
+.health-intro h2 {
+    font-size: 38px;
+    margin-bottom: 24px;
+}
+
+.health-intro p {
+    color: #64748B;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+.health-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.health-feature-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    padding: 38px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.health-feature-card:hover {
+    transform: translateY(-4px);
+    border-color: #C8A46B;
+    box-shadow: 0 16px 38px rgba(10,25,47,0.08);
+}
+
+.health-feature-card h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.health-feature-card p {
+    font-size: 16px;
+    color: #64748B;
+}
+
+.commitment-section {
+    background: #0A192F;
+    padding: 85px 0;
+    color: #FFFFFF;
+}
+
+.commitment-section h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.commitment-section p {
+    color: #CBD5E1;
+    font-size: 18px;
+    max-width: 850px;
+}
+
+.final-cta {
+    margin-top: 35px;
+}
+
+/* FOOTER */
+footer {
+    background: #06101F;
+    color: #94A3B8;
+    padding: 40px 0;
+    font-size: 13px;
+}
+
+footer a {
+    color: #C8A46B;
+    text-decoration: none;
+}
+
+/* MOBILE */
+@media (max-width: 968px) {
+    .container {
+        padding: 0 24px;
+    }
+
+    .nav-container {
+        height: 82px;
+        padding: 0 24px;
+    }
+
+    .logo {
+        height: 72px;
+    }
+
+    .health-hero {
+        min-height: auto;
+        padding-top: 82px;
+        background-position: center center;
+    }
+
+    .health-hero-content {
+        padding: 95px 0;
+    }
+
+    .health-hero h1 {
+        font-size: 40px;
+    }
+
+    .health-hero h2 {
+        font-size: 20px;
+    }
+
+    .health-hero p {
+        font-size: 16px;
+    }
+
+    .health-features {
+        grid-template-columns: 1fr;
+    }
+
+    .health-feature-card {
+        padding: 30px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="nav-container">
+        <a href="https://cbrasesores.com/">
+            <img src="logo-cbr.webp" alt="CBR ASESORES" class="logo">
+        </a>
+
+        <a href="https://cbrasesores.com/#contacto" class="nav-cta">
+            Contactar
+        </a>
+    </div>
+</header>
+
+<section class="health-hero">
+    <div class="container">
+        <div class="health-hero-content">
+            <span class="health-tag">Seguro Médico Internacional</span>
+
+            <h1>Tu bienestar no tiene fronteras.</h1>
+
+            <h2>Diseñado para acompañarte a donde vayas.</h2>
+
+            <p>
+                En un mundo interconectado, la tranquilidad de proteger tu salud debe ser global.
+                Te ofrecemos acceso directo a medicina de vanguardia y a especialistas reconocidos,
+                respaldados por una red élite de aseguradoras y proveedores internacionales.
+            </p>
+
+            <a href="https://cbrasesores.com/#contacto" class="btn-primary">
+                Solicitar Asesoría
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="health-content-section">
+    <div class="container">
+
+        <div class="health-intro">
+            <h2>Una cobertura diseñada para decisiones médicas importantes.</h2>
+
+            <p>
+                Diseñamos una cobertura sin límites para que tu única prioridad sea recuperarte.
+            </p>
+
+            <p>
+                Nuestro enfoque combina asesoría especializada, acceso internacional y acompañamiento
+                cercano para ayudarte a tomar decisiones médicas complejas con mayor seguridad.
+            </p>
+        </div>
+
+        <div class="health-features">
+
+            <div class="health-feature-card">
+                <h3>Segunda Opinión Médica Global</h3>
+                <p>
+                    Conecta con expertos internacionales para validar diagnósticos y asegurar
+                    el tratamiento correcto ante decisiones complejas.
+                </p>
+            </div>
+
+            <div class="health-feature-card">
+                <h3>Procedimientos de Alta Especialidad</h3>
+                <p>
+                    Accede a hospitales de primer nivel y tecnología médica avanzada en cualquier
+                    parte del mundo.
+                </p>
+            </div>
+
+            <div class="health-feature-card">
+                <h3>Respaldo y Logística Internacional</h3>
+                <p>
+                    Te acompañamos en cada paso gracias a alianzas estratégicas con compañías
+                    de seguros sólidas del mercado global.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="commitment-section">
+    <div class="container">
+        <h2>Nuestro compromiso</h2>
+
+        <p>
+            Garantizar que recibas una atención médica excepcional, oportuna y sin contratiempos,
+            sin importar en qué lugar del mapa te encuentres.
+        </p>
+
+        <div class="final-cta">
+            <a href="https://cbrasesores.com/#contacto" class="btn-primary">
+                Coordinar Asesoría
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        © 2026 CBR ASESORES. Todos los derechos reservados. |
+        <a href="https://cbrasesores.com/">Volver al inicio</a>
+    </div>
+</footer>
+
+</body>
+</html>
